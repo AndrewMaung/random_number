@@ -1,0 +1,126 @@
+*{
+
+	box-sizing: border-box;
+	
+}
+.header {
+
+	width: 100%;
+	height: 3%;
+	float: right;
+    text-align: center;
+    font-weight: bold;
+	font-family: monospace;
+	font-size: 12px;
+	color: white;
+	border-radius: 15px 50px; 
+	background-color: #c4231a;
+
+
+}
+.box2{
+
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	border: 3px solid #73AD21;
+	text-align: center;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 50px;
+	position: relative;
+	left: 120px;
+}
+.box3{
+
+	width: 150px;
+	height: 100px;
+	padding: 10px;
+	border: 3px solid #73AD21;
+	text-align: center;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 50px;
+	position: relative;
+	left: 120px;
+}
+
+.box{
+
+	width: 30%;
+	height: 30%;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 20px;
+	float: left;
+	
+}
+.boxtext{
+
+	width: 30%;
+	height: 30%;
+	padding: 10px;
+	text-align: left;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 17px;
+	float: left;
+	
+}
+.row::after{
+
+	content: "";
+	clear: both;
+	display: table;
+}
+.button1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2 {
+    background-color: #c4231a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.note{
+
+	width: 400px;
+	height: 200px;
+	font-weight: bold;
+	font-family: monospace;
+}
+.footer{
+
+	width: 100%;
+	height: 3%;
+	background-color: #000000;
+	text-align: center;
+    font-weight: bold;
+	font-family: monospace;
+	font-size: 12px;
+	color: white;
+	float: right;
+
+}
